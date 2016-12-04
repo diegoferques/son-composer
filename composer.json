@@ -1,0 +1,24 @@
+{
+    "name": "diegoferques/son-composer",
+    "description": "Pacote teste do composer - Aula School of Net",
+    "require": {
+        "php": ">=5.4",
+        "silex/silex": "2.0.*@stable"
+    },
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Fernandes",
+            "email": "diegoferques@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "diegoferques\\SON\\": "src/diegoferques/SON"
+        }
+    }
+}
+
